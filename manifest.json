@@ -4,7 +4,8 @@
     "name": "奇怪的插件",
     "slug": "Strange",
     "description": "奇怪的插件 QQNT",
-    "version": "0.0.0",
+    "version": "v0.0.0-alpha.1",
+	"thumbrail": "./icon.png",
     "author": {
         "name": "PPPxcy",
         "link": "https://github.com/PPPxcy"
@@ -13,8 +14,8 @@
         "repo": "PPPxcy/Strange-patch",
         "branch": "main",
         "use_release": {
-            "tag": "0.0.0",
-            "name": "Strange-patch.zip"
+            "tag": "v0.0.0-alpha.1",
+            "name": "v0.0.0-alpha.1.zip"
         }
     },
     "platform": [
