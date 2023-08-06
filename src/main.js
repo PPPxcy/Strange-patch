@@ -1,19 +1,13 @@
 // 运行在 Electron 主进程 下的插件入口
 
-
-// 加载插件时触发
 function onLoad(plugin) {
-
+	console.log('onload', plugin);
 }
 
-
-// 创建窗口时触发
 function onBrowserWindowCreated(window, plugin) {
-
+	console.log('onBrowserWindowCreated', window, plugin);
 }
 
-
-// 这两个函数都是可选的
 module.exports = {
     onLoad,
     onBrowserWindowCreated
